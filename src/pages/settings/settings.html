@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Configuración</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label color="primary" stacked>Encender lampara cuando se lea codigo</ion-label>
+    <ion-toggle color="danger" [(ngModel)]="lamp" (ionChange)="notify()"></ion-toggle>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Abrir el navegador siempre</ion-label>
+    <ion-toggle color="danger" [(ngModel)]="browser" (ionChange)="notify()"></ion-toggle>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Usar la URL con el navegador</ion-label>
+    <ion-input [(ngModel)]="url" type="text" placeholder="https://www.google.com/search?q=" (ionChange)="notify()"></ion-input>
+  </ion-item>
+</ion-content>

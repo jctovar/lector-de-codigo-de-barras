@@ -1,0 +1,23 @@
+page-contact {
+    .about-icon {
+        height: 64px;
+        width: 64px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+        border-width: 1px;
+    }
+    .about-header {
+        height: 140px;
+        background-color: #ae52d4;
+        position: relative;
+    }
+
+    .center {
+        position: absolute;
+        margin-left: 30px;
+        top: 50%;
+        margin-top: -30px;
+    }
+    
+}
